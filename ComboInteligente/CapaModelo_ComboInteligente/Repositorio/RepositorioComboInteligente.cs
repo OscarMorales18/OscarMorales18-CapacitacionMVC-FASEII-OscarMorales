@@ -12,7 +12,7 @@ namespace CapaModelo_ComboInteligente.Repositorio
     {
         public DataTable obtenerDatos(string _tabla, string _campo1, string _campo2)
         {
-            string sql = "SELECT " + _campo1 + ", " + _campo2 + " FROM " + _tabla + " where estado = 1   ;";
+            string sql = "SELECT " + _campo1 + ", " + _campo2 + " FROM " + _tabla;
             
             OdbcCommand command = new OdbcCommand(sql, ObtenerConexion());
             OdbcDataAdapter adaptador = new OdbcDataAdapter(command);
