@@ -45,7 +45,7 @@ namespace CapaControlador_CapacitacionMVC_FASEII_.Modelos
 
         //Constructor
 
-        private ModeloUsuarios()
+        public ModeloUsuarios()
         {
             RepositorioUsuarios = new RepositorioUsuarios();
         }
