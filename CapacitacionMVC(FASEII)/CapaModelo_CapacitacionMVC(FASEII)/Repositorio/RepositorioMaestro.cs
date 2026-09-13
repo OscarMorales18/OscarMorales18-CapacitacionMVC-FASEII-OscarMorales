@@ -23,7 +23,7 @@ namespace CapaModelo_CapacitacionMVC_FASEII_.Repositorio
                     ocComando.Connection = conexion;
                     ocComando.CommandText = _comandoTexto;
                     ocComando.CommandType = _comandoTipo;
-                    ocComando.Parameters.Add(_parametros.ToArray());
+                    ocComando.Parameters.AddRange(_parametros.ToArray());
                     //Aqui regresa todo lo que no sean consultas,es decir, insert, update, delete
                     return ocComando.ExecuteNonQuery();
                 }

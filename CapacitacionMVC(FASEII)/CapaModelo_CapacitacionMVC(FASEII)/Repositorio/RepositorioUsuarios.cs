@@ -22,9 +22,9 @@ namespace CapaModelo_CapacitacionMVC_FASEII_.Repositorio
         public RepositorioUsuarios()
         {
             selectAll = "SELECT * FROM usuarios";
-            insert = "INSERT INTO usuarios (Usuario, Contrasena, Rol) VALUES (?, ?, ?)";
-            update = "UPDATE usuarios SET Usuario = ?, Contrasena = ?, Rol = ? WHERE IdUsuario = ?";
-            delete = "DELETE FROM usuarios WHERE IdUsuario = ?";
+            insert = "INSERT INTO usuarios (usuario, contraseña, rol) VALUES (?, ?, ?)";
+            update = "UPDATE usuarios SET usuario = ?, contraseña = ?, rol = ? WHERE id_usuario = ?";
+            delete = "DELETE FROM usuarios WHERE id_usuario = ?";
         }
 
         public int Insertar(Usuarios entidad)
@@ -61,7 +61,7 @@ namespace CapaModelo_CapacitacionMVC_FASEII_.Repositorio
             foreach (DataRow row in tblUsuarios.Rows)
             {
                 var usuario = new Usuarios();
-                usuario.IdUsuario = Convert.ToInt32(row["IdUsuario"]);
+                usuario.IdUsuario = Convert.ToInt32(row["id_usuario"]);
                 usuario.Usuario = row[1].ToString();
                 usuario.Contrasena = row[2].ToString();
                 usuario.Rol = row[3].ToString();    
