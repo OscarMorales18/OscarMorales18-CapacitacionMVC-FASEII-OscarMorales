@@ -18,6 +18,7 @@ namespace CapaVista_CapacitacionMVC_FASEII_.Formularios
         {
             InitializeComponent();
             panIngresoDatos.Enabled = false;
+            listadoUsuarios();
         }
 
         private void FrmUsuarios_Load(object sender, EventArgs e)
@@ -52,6 +53,7 @@ namespace CapaVista_CapacitacionMVC_FASEII_.Formularios
             if (dgvUsuarios.SelectedRows.Count > 0)
             {
                 usuario.IdUsuario = Convert.ToInt32(dgvUsuarios.CurrentRow.Cells[0].Value);
+                usuario.Estado = CapaControlador_CapacitacionMVC_FASEII_.EstadoEntidad.Deleted;
                 string resultado = usuario.GrabarCambios();
                 MessageBox.Show(resultado);
                 listaUsuarios();
@@ -115,6 +117,19 @@ namespace CapaVista_CapacitacionMVC_FASEII_.Formularios
             else
             {
                 MessageBox.Show("Seleccione un registro para editar");
+            }
+        }
+        private void listadoUsuarios()
+        {
+            try
+            {
+                var lista = usuario.GetAll();
+                MessageBox.Show("Registros encontrados: " + lista.Count());
+                dgvUsuarios.DataSource = lista;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.ToString());
             }
         }
     }
