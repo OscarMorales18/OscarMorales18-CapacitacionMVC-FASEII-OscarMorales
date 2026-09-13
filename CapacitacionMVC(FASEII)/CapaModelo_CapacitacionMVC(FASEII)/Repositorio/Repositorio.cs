@@ -12,7 +12,7 @@ namespace CapaModelo_CapacitacionMVC_FASEII_.Repositorio
         public readonly string connectionString;
         public Repositorio()
         {
-            connectionString = "Dns=umg_didacticamvc";
+            connectionString = "Dsn=umg_didacticamvc";
         }
         protected OdbcConnection ObtenerConexion()
         {
