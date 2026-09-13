@@ -19,6 +19,7 @@ namespace CapaVista_CapacitacionMVC_FASEII_.Formularios
             InitializeComponent();
             panIngresoDatos.Enabled = false;
             listadoUsuarios();
+            CargarDatos();
         }
 
         private void FrmUsuarios_Load(object sender, EventArgs e)
@@ -131,6 +132,11 @@ namespace CapaVista_CapacitacionMVC_FASEII_.Formularios
             {
                 MessageBox.Show(ex.ToString());
             }
+        }
+
+        void CargarDatos()
+        {
+            comboInteligente1.llenarCombo("usuarios", "rol", "usuario");
         }
     }
 }

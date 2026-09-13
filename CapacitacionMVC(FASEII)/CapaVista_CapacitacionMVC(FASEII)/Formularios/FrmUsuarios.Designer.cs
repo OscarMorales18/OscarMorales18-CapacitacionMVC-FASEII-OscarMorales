@@ -44,8 +44,9 @@
             this.dgvUsuarios = new System.Windows.Forms.DataGridView();
             this.txtSearch = new System.Windows.Forms.TextBox();
             this.panIngresoDatos = new System.Windows.Forms.Panel();
-            this.txtIdUsuario = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
+            this.txtIdUsuario = new System.Windows.Forms.TextBox();
+            this.comboInteligente1 = new CapaVista_ComboInteligente.ComboInteligente();
             ((System.ComponentModel.ISupportInitialize)(this.dgvUsuarios)).BeginInit();
             this.panIngresoDatos.SuspendLayout();
             this.SuspendLayout();
@@ -200,13 +201,6 @@
             this.panIngresoDatos.Size = new System.Drawing.Size(249, 309);
             this.panIngresoDatos.TabIndex = 15;
             // 
-            // txtIdUsuario
-            // 
-            this.txtIdUsuario.Location = new System.Drawing.Point(12, 40);
-            this.txtIdUsuario.Name = "txtIdUsuario";
-            this.txtIdUsuario.Size = new System.Drawing.Size(228, 20);
-            this.txtIdUsuario.TabIndex = 7;
-            // 
             // label4
             // 
             this.label4.AutoSize = true;
@@ -216,11 +210,26 @@
             this.label4.TabIndex = 8;
             this.label4.Text = "Id del usuario";
             // 
+            // txtIdUsuario
+            // 
+            this.txtIdUsuario.Location = new System.Drawing.Point(12, 40);
+            this.txtIdUsuario.Name = "txtIdUsuario";
+            this.txtIdUsuario.Size = new System.Drawing.Size(228, 20);
+            this.txtIdUsuario.TabIndex = 7;
+            // 
+            // comboInteligente1
+            // 
+            this.comboInteligente1.Location = new System.Drawing.Point(12, 17);
+            this.comboInteligente1.Name = "comboInteligente1";
+            this.comboInteligente1.Size = new System.Drawing.Size(459, 23);
+            this.comboInteligente1.TabIndex = 16;
+            // 
             // FrmUsuarios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 329);
+            this.Controls.Add(this.comboInteligente1);
             this.Controls.Add(this.txtSearch);
             this.Controls.Add(this.dgvUsuarios);
             this.Controls.Add(this.btnBuscar);
@@ -260,5 +269,6 @@
         private System.Windows.Forms.Panel panIngresoDatos;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txtIdUsuario;
+        private CapaVista_ComboInteligente.ComboInteligente comboInteligente1;
     }
 }
