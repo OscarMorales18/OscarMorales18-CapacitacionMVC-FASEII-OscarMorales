@@ -1,0 +1,229 @@
+commit 99cb6f12649970c5146a2e7fc8a3c39164ad3a89
+Author: OscarMorales18 <omoralesl7@miumg.edu.gt>
+Date:   Sat Sep 19 11:23:14 2026 -0600
+
+    Agregando reporte a los usuarios
+
+commit e199318f8bba41343364192686db37e9fdfea014
+Author: OscarMorales18 <omoralesl7@miumg.edu.gt>
+Date:   Sun Sep 13 09:37:02 2026 -0600
+
+    Añadiendo el archivo git log (Commits.txt)
+
+commit 08fd75c38b1f721d4f88a3ffc54164df4976ddf3
+Merge: 6bb6e1b 9b3c0fe
+Author: OscarMorales18 <156693114+OscarMorales18@users.noreply.github.com>
+Date:   Sun Sep 13 09:32:35 2026 -0600
+
+    Merge pull request #12 from OscarMorales18/Diseno_Capa_Vista_9959-23-3070
+    
+    Agregando combobox inteligente al sistema
+
+commit 9b3c0fe2c6e306ba4f4fec42e917250c75d3e7bb
+Author: OscarMorales18 <omoralesl7@miumg.edu.gt>
+Date:   Sun Sep 13 09:31:48 2026 -0600
+
+    Agregando combobox inteligente al sistema
+
+commit 6bb6e1b8fe24ddde8e83d572b5f127e051e57422
+Merge: e238b5a dbce020
+Author: OscarMorales18 <156693114+OscarMorales18@users.noreply.github.com>
+Date:   Sun Sep 13 09:30:18 2026 -0600
+
+    Merge pull request #11 from OscarMorales18/Combo_Inteligente_9959-23-3070
+    
+    Corrigiendo llamado se sentencia SQL
+
+commit dbce02052f2b8d035e4eeffc4f21304cf217eb05
+Author: OscarMorales18 <omoralesl7@miumg.edu.gt>
+Date:   Sun Sep 13 09:29:02 2026 -0600
+
+    Corrigiendo llamado se sentencia SQL
+
+commit e238b5a6dfee60a06a4f239fa3e299c5e239c941
+Merge: e30acee 2a46b38
+Author: OscarMorales18 <156693114+OscarMorales18@users.noreply.github.com>
+Date:   Sun Sep 13 09:05:40 2026 -0600
+
+    Merge pull request #10 from OscarMorales18/Combo_Inteligente_9959-23-3070
+    
+    Agregando el combobox inteligente
+
+commit 2a46b38d563480355bad5a8a538062e78ead1fe2
+Author: OscarMorales18 <omoralesl7@miumg.edu.gt>
+Date:   Sun Sep 13 09:04:29 2026 -0600
+
+    Agregando el combobox inteligente
+
+commit e30acee96bd789d2e92fc9cd44dbe7f362a28719
+Author: OscarMorales18 <omoralesl7@miumg.edu.gt>
+Date:   Sun Sep 13 09:03:11 2026 -0600
+
+    Corrigiedo detalle del ejecutable
+
+commit a2c469d5ca03cfa2de2dc83ebb8e7dfd17b5c9ff
+Merge: e8af872 116bacd
+Author: OscarMorales18 <omoralesl7@miumg.edu.gt>
+Date:   Sun Sep 13 00:35:03 2026 -0600
+
+    Merge branch 'main' of https://github.com/OscarMorales18/OscarMorales18-CapacitacionMVC-FASEII-OscarMorales
+
+commit 116bacdb8260d3debed0b9c0be8f9dfc9e3a68dc
+Merge: e52074b e3061ff
+Author: OscarMorales18 <156693114+OscarMorales18@users.noreply.github.com>
+Date:   Sun Sep 13 00:34:19 2026 -0600
+
+    Merge pull request #9 from OscarMorales18/Diseno_Capa_Vista_9959-23-3070
+    
+    Agregando contador de ingresos
+
+commit e8af8725e441a2f9c98e3405472d51931ea87247
+Merge: 2951792 e3061ff
+Author: OscarMorales18 <omoralesl7@miumg.edu.gt>
+Date:   Sun Sep 13 00:26:35 2026 -0600
+
+    Merge branch 'PR_9'
+
+commit e3061ffb658505d442af6b6ab1f84cb328283a57
+Author: OscarMorales18 <omoralesl7@miumg.edu.gt>
+Date:   Sun Sep 13 00:21:16 2026 -0600
+
+    Agregando contador de ingresos
+
+commit e52074bf07647cd7b192324612fe74b23638ca1c
+Merge: 057f15b 485c65d
+Author: OscarMorales18 <156693114+OscarMorales18@users.noreply.github.com>
+Date:   Sun Sep 13 00:18:11 2026 -0600
+
+    Merge pull request #8 from OscarMorales18/Diseno_Capa_Modelo_9959-23-3070
+    
+    Arreglando bugs de compilacion
+
+commit 485c65dee5cd2d3fad97bfd25f8803ac4b800527
+Author: OscarMorales18 <omoralesl7@miumg.edu.gt>
+Date:   Sun Sep 13 00:17:17 2026 -0600
+
+    Arreglando bugs de compilacion
+
+commit 057f15b29fe2f8f858d03caab3768cb6b808954b
+Merge: 2951792 250402c
+Author: OscarMorales18 <156693114+OscarMorales18@users.noreply.github.com>
+Date:   Sat Sep 12 23:32:11 2026 -0600
+
+    Merge pull request #7 from OscarMorales18/Diseno_Capa_Vista_9959-23-3070
+    
+    Agregando formulario y clases
+
+commit 250402c55a8f8e27facfbf7522cab3571f216b8a
+Author: OscarMorales18 <omoralesl7@miumg.edu.gt>
+Date:   Sat Sep 12 23:31:32 2026 -0600
+
+    Agregando formulario y clases
+
+commit 2951792e8cc2daf245bfc7be0e08a810804d66c8
+Author: OscarMorales18 <omoralesl7@miumg.edu.gt>
+Date:   Sat Sep 12 23:30:06 2026 -0600
+
+    Agregando ejecutable para el sistema
+
+commit 064a68b8b6882c2c366144d0f6c722be8a7b0c5e
+Merge: 12e5b1f 361ff2c
+Author: OscarMorales18 <156693114+OscarMorales18@users.noreply.github.com>
+Date:   Sat Sep 12 22:56:45 2026 -0600
+
+    Merge pull request #6 from OscarMorales18/Diseno_Capa_Controlador_9959-23-3070
+    
+    Corrigiendo clase de privada a publica
+
+commit 361ff2cdb9386c4e0074ba0548653cc8878c0a0e
+Author: OscarMorales18 <omoralesl7@miumg.edu.gt>
+Date:   Sat Sep 12 22:56:04 2026 -0600
+
+    Corrigiendo clase de privada a publica
+
+commit 12e5b1fe92088ffaef34dd9dd1728dcead22d7ac
+Merge: 0aa1cd6 42897c6
+Author: OscarMorales18 <156693114+OscarMorales18@users.noreply.github.com>
+Date:   Sat Sep 12 16:59:54 2026 -0600
+
+    Merge pull request #5 from OscarMorales18/Diseno_Capa_Controlador_9959-23-3070
+    
+    Agregando clases de estado y modelos
+
+commit 42897c67a0c4467e50bb543eddb01ef279ab739e
+Author: OscarMorales18 <omoralesl7@miumg.edu.gt>
+Date:   Sat Sep 12 16:59:02 2026 -0600
+
+    Agregando clases de estado y modelos
+
+commit 0aa1cd6205201f1982c7121970c696cc086a762d
+Merge: 592fcd2 bc5734f
+Author: OscarMorales18 <156693114+OscarMorales18@users.noreply.github.com>
+Date:   Sat Sep 12 11:35:03 2026 -0600
+
+    Merge pull request #4 from OscarMorales18/Diseno_Capa_Modelo_9959-23-3070
+    
+    Actualizando Modelo; Repositorio, Contratos y Entidades (Usuarios)
+
+commit bc5734f70078fd5cfde43e5338008c23cf452cba
+Author: OscarMorales18 <omoralesl7@miumg.edu.gt>
+Date:   Sat Sep 12 11:34:22 2026 -0600
+
+    Actualizando Modelo; Repositorio, Contratos y Entidades (Usuarios)
+
+commit 592fcd2106f456068cd578b739f0644f87801699
+Merge: 91f5904 536c577
+Author: OscarMorales18 <156693114+OscarMorales18@users.noreply.github.com>
+Date:   Sat Sep 12 10:17:03 2026 -0600
+
+    Merge pull request #3 from OscarMorales18/Diseno_Capa_Modelo_9959-23-3070
+    
+    Agregando cada modelo
+
+commit 91f5904ecaed3419251623c04271ba5db306c5f0
+Merge: c538be2 07586c2
+Author: OscarMorales18 <156693114+OscarMorales18@users.noreply.github.com>
+Date:   Sat Sep 12 10:16:12 2026 -0600
+
+    Merge pull request #2 from OscarMorales18/Diseno_Capa_Controlador_9959-23-3070
+    
+    Agregando capa controlador
+
+commit 536c577141c1e3dac924f55826832885c2eee6ea
+Author: OscarMorales18 <omoralesl7@miumg.edu.gt>
+Date:   Sat Sep 12 10:15:37 2026 -0600
+
+    Agregando cada modelo
+
+commit 07586c2864faa9ced055f9d6d587ee048af63c0e
+Author: OscarMorales18 <omoralesl7@miumg.edu.gt>
+Date:   Sat Sep 12 10:14:46 2026 -0600
+
+    Agregando capa controlador
+
+commit c538be2e5f1a930ba353bc25ac97d2d45ee15e26
+Merge: e9da8dc 7de0976
+Author: OscarMorales18 <156693114+OscarMorales18@users.noreply.github.com>
+Date:   Sat Sep 12 10:13:49 2026 -0600
+
+    Merge pull request #1 from OscarMorales18/Diseno_Capa_Vista_9959-23-3070
+    
+    Agregando capa vista
+
+commit 7de0976c53c704c49ba1f9208639ec6ed9289e7d
+Author: OscarMorales18 <omoralesl7@miumg.edu.gt>
+Date:   Sat Sep 12 10:13:08 2026 -0600
+
+    Agregando capa vista
+
+commit e9da8dc83ad9063f833fd1102c7de87aaade9a9d
+Author: OscarMorales18 <omoralesl7@miumg.edu.gt>
+Date:   Sat Sep 12 10:11:41 2026 -0600
+
+    Agregando plantilla del programa
+
+commit 864ba24987d09bd729aa555e922d10308bfbcc09
+Author: OscarMorales18 <156693114+OscarMorales18@users.noreply.github.com>
+Date:   Sat Sep 12 10:10:03 2026 -0600
+
+    Initial commit
