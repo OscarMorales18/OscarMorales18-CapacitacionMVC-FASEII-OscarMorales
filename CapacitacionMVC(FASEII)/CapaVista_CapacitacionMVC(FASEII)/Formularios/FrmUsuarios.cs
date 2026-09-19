@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using CapaControlador_CapacitacionMVC_FASEII_.Modelos;
+using CapaVista_CapacitacionMVC_FASEII_.Reportes;
 
 namespace CapaVista_CapacitacionMVC_FASEII_.Formularios
 {
@@ -137,6 +138,12 @@ namespace CapaVista_CapacitacionMVC_FASEII_.Formularios
         void CargarDatos()
         {
             comboInteligente1.llenarCombo("usuarios", "rol", "usuario");
+        }
+
+        private void btnImprimir_Click(object sender, EventArgs e)
+        {
+            frmReporteUsuarios reporte = new frmReporteUsuarios();
+            reporte.Show();
         }
     }
 }
