@@ -145,5 +145,10 @@ namespace CapaVista_CapacitacionMVC_FASEII_.Formularios
             frmReporteUsuarios reporte = new frmReporteUsuarios();
             reporte.Show();
         }
+
+        private void btnAyuda_Click(object sender, EventArgs e)
+        {
+            Help.ShowHelp(this, "c:/AyudaRisko/CapacitacionAyudasRisko.chm", "Cliente.html");
+        }
     }
 }
